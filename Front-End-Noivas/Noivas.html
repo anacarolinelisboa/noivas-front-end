@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noivas</title>
+	<meta charset="UTF-8">
+	<!-- Font Awesome -->
+   <script defer src="font-awesome/fontawesome-all.js"></script>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="css/estilo_casamento.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light gold">
+  <a class="navbar-brand ml-5 text-white" href="#">Noivas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuconteudo" aria-controls="menuconteudo" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="menuconteudo">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contato</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Sobre</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 py-1" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn bege my-2 my-sm-0 py-1" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class="container-fluid" id="container-principal">
+	<div class="row mb-5">
+		<div class="col-lg-6 col-md-6 col-sm-12"> 
+			<div class="row">
+				<div id="acessorios">
+					<div class="col-12 d-flex justify-content-center" id="filtro-acessorios">			
+						<table style="height: 100%;">
+						  <tbody>
+						    <tr>  <td class="align-middle"> <button type="button" class="btn btn-principais " id="btn-acessorios">Acessórios</button></td>  </tr>
+						  </tbody>
+						</table>
+					</div><!-- col-12 -->
+				</div><!-- acessorios -->
+
+			</div><!-- row de col-6 -->
+			<div class="row">
+
+				<div id="sapatos">
+					<div class="col-12 d-flex justify-content-center" id="filtro-sapatos">
+						<table style="height: 100%;">
+						  <tbody>
+						    <tr>  <td class="align-middle"> <button type="button" class="btn btn-principais" id="btn-sapatos">Sapatos</button></td>  </tr>
+						  </tbody>
+						</table>
+					</div><!-- col-12 -->
+				</div><!-- sapatos -->
+			</div><!-- row de col-6 -->
+		</div><!-- col-md-6 -->
+
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<div class="row">
+				<div id="vestidos">
+					<div class="col-12 d-flex justify-content-center" id="filtro-vestidos">
+						<table style="height: 100%;">
+							<tbody>
+							   <tr>  <td class="align-middle"> <button type="button" class="btn btn-principais" id="btn-vestidos">Vestidos</button></td>  </tr>
+							</tbody>
+						</table>		
+					</div><!-- col-12 -->
+				</div><!-- vestidos -->
+			</div><!-- row de col-6 -->
+		</div><!-- col-6 -->
+	</div><!-- row 1 -->
+</div><!-- container-fluid -->
+
+
+
+<div class="container">
+	<p class="titulo"><span class="span-titulo gold"> <i class="fas fa-search"></i> Pesquisa avançada</span></p>
+
+	<div class="row">
+	  <div class="col-lg-3 col-md-4 col-sm-12">
+	    <div class="list-group tag-box-shadow" id="list-tab" role="tablist">
+	 
+	      <a class="list-group-item list-group-item-action active" id="list-profile-list" data-toggle="list" href="#acesso" role="tab" aria-controls="profile">Acessórios</a>
+	      <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#vesti" role="tab" aria-controls="home">Vestidos</a>
+	      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#de" role="tab" aria-controls="messages">Sapatos</a>
+	    </div><!-- list-group -->
+	  </div><!-- col-3 -->
+	  <div class="col-lg-9 col-md-8 col-sm-12">
+	    <div class="tab-content" id="nav-tabContent">
+	      <div class="tab-pane fade" id="vesti" role="tabpanel" aria-labelledby="list-home-list">
+	      	<div class="card  tag-box-shadow">
+	      	  <div class="card-body">
+				<img src="img/princesa-vestido.svg" alt="vestido-princesa - Noivas" title="Princesa" class="img-pesquisa p-2 mt-2 mr-3 rounded-circle">
+				<img src="img/sereia-vestido.svg" alt="vestido-sereia - Noivas" title="Sereia" class="img-pesquisa p-2 mt-2 mr-3 rounded-circle">
+				<img src="img/ilusão-vestido.svg" alt="vestido-ilusão - Noivas" title="Ilusão" class="img-pesquisa p-2 mt-2 mr-3 rounded-circle">
+				<img src="img/tomara-vestido.svg" alt="vestido-tomara - Noivas" title="Tomara que Caia" class="img-pesquisa p-2 mt-2 mr-3 rounded-circle">
+				<img src="img/fechado-vestido.svg" alt="vestido-fechado - Noivas" title="Fechado" class="img-pesquisa p-2 mt-2 mr-3 rounded-circle">
+				<img src="img/curto-vestido.svg" alt="vestido-curto - Noivas" title="Curto" class="img-pesquisa p-2 mt-2 rounded-circle">
+			  </div><!-- card-body -->
+			</div><!-- card -->
+	      </div><!-- tab-pane -->
+
+
+	      <div class="tab-pane fade show active" id="acesso" role="tabpanel" aria-labelledby="list-profile-list">
+	      	<div class="card  tag-box-shadow">
+	      	  <div class="card-body">
+	      	  	<img src="img/grampos.svg" title="Grampos Enfeitados" alt="Grampos Enfeitados" class="img-pesquisa p-3 mt-2 mr-3 rounded-circle">
+				<img src="img/brinco.svg" title="Brinco" alt="Brinco" class="img-pesquisa p-3 mt-2 mr-3 rounded-circle"> 
+				<img src="img/coroa.svg" title="Coroa de Brilhantes" alt="Coroa de Brilhantes" class="img-pesquisa p-3 mt-2 mr-3 rounded-circle">
+				<img src="img/coroa-flores.svg" title="Coroa de Flores" alt="Coroa de Flores" class="img-pesquisa p-3 mt-2 rounded-circle">
+			  </div><!-- card-body -->
+			</div><!-- card -->
+	      </div><!-- tab-pane -->
+
+
+	      <div class="tab-pane fade" id="de" role="tabpanel" aria-labelledby="list-messages-list">
+	      	<div class="card  tag-box-shadow">
+	      	  <div class="card-body">
+				<img src="img/sapato-bico-fino.svg" title="Sapato Bico-Fino" alt="Sapato Bico-Fino" class="img-pesquisa p-2 mt-2 mr-3 rounded-circle">
+				<img src="img/sapato-arredondado.svg" title="Sapato Arredondado" alt="Sapato Arredondado" class="img-pesquisa p-3 mt-2 mr-3 rounded-circle">
+				<img src="img/sandalia.svg" title="Sandália" alt="Sandália" class="img-pesquisa p-2 mt-2 rounded-circle">
+			  </div><!-- card-body -->
+			</div><!-- card -->
+	      </div><!-- tab-pane -->
+
+	    </div><!-- tab-content -->
+	  </div><!-- col-9 -->
+	</div><!-- row -->
+</div><!-- container -->
+
+
+
+<div class="container mt-5">
+	<p class="titulo"><span class="span-titulo gold"> Todos os vestidos</span></p>
+</div>
+
+
+
+
+<div class="container">
+	<div class="row mt-3">
+
+		<div class="col-lg-4 col-md-6">
+			<div class="card my-3 tag-box-shadow">
+			  <img class="card-img-top card-img" src="img/1.jpg" alt="Vestido de Noiva">
+			  <div class="card-body">
+			    <h5 class="card-title">Nome Coleção</h5>
+			    <p class="card-text">Descrição do vestido <a href="#" class="btn btn-sm gold float-right">Ver Mais</a></p>
+			    
+			  </div>
+			</div>
+		</div><!-- col-4 -->
+
+		<div class="col-lg-4 col-md-6">
+			<div class="card my-3 tag-box-shadow ">
+			  <img class="card-img-top card-img" src="img/2.jpg" alt="Vestido de Noiva">
+			  <div class="card-body">
+			    <h5 class="card-title">Nome Coleção</h5>
+			    <p class="card-text">Descrição do vestido <a href="#" class="btn btn-sm gold float-right">Ver Mais</a></p>
+			    
+			  </div>
+			</div>
+		</div><!-- col-4 -->
+
+		<div class="col-lg-4 col-md-6">
+			<div class="card my-3 tag-box-shadow">
+			  <img class="card-img-top card-img" src="img/3.jpg" alt="Vestido de Noiva">
+			  <div class="card-body">
+			    <h5 class="card-title">Nome Coleção</h5>
+			    <p class="card-text">Descrição do vestido <a href="#" class="btn btn-sm gold float-right">Ver Mais</a></p>
+			    
+			  </div>
+			</div>
+		</div><!-- col-4 -->
+
+		<div class="col-lg-4 col-md-6">
+			<div class="card my-3 tag-box-shadow">
+			  <img class="card-img-top card-img" src="img/4.jpg" alt="Vestido de Noiva">
+			  <div class="card-body">
+			    <h5 class="card-title">Nome Coleção</h5>
+			    <p class="card-text">Descrição do vestido <a href="#" class="btn btn-sm gold float-right">Ver Mais</a></p>
+			    
+			  </div>
+			</div>
+		</div><!-- col-4 -->
+
+		<div class="col-lg-4 col-md-6">
+			<div class="card my-3 tag-box-shadow">
+			  <img class="card-img-top card-img" src="img/5.jpg" alt="Vestido de Noiva">
+			  <div class="card-body">
+			    <h5 class="card-title">Nome Coleção</h5>
+			    <p class="card-text">Descrição do vestido <a href="#" class="btn btn-sm gold float-right">Ver Mais</a></p>
+			    
+			  </div>
+			</div>
+		</div><!-- col-4 -->
+
+		<div class="col-lg-4 col-md-6">
+			<div class="card my-3 tag-box-shadow">
+			  <img class="card-img-top card-img" src="img/6.jpg" alt="Vestido de Noiva">
+			  <div class="card-body">
+			    <h5 class="card-title">Nome Coleção</h5>
+			    <p class="card-text">Descrição do vestido <a href="#" class="btn btn-sm gold float-right">Ver Mais</a></p>
+			    
+			  </div>
+			</div>
+		</div><!-- col-4 -->
+
+	</div><!-- row -->
+</div><!-- container -->
+
+<div class="container">
+	<div class="row mt-5">
+		<div class="col-lg-6 col-md-12">
+			<div id="controleCarousel" class="carousel slide tag-box-shadow" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block img-carousel" src="img/s1.jpg" alt="Fusca com latinhas de casamento">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-carousel" src="img/s2.jpg" alt="Casal e Buquê">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block img-carousel" src="img/s3.jpg" alt="Casal se Abraçando">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#controleCarousel" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Anterior</span>
+			  </a>
+			  <a class="carousel-control-next" href="#controleCarousel" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Próximo</span>
+			  </a>
+			</div><!-- controleCarousel -->
+		</div><!-- col-6 -->
+
+
+		<div class="col-lg-6 col-md-12">
+			<div class="row" id="cont-comentarios">
+			  <div class="col-12">
+
+
+			  	<div class="card mb-2 tag-box-shadow">
+				  <div class="card-body">
+				    <img src="img/usuario.png" class="rounded-circle mr-4 ml-2 float-left img-usuario">
+				    <h6 class="my-2">Mônica Ferreira - 2 dias atrás</h6>
+				    <h6><i class="fas fa-quote-left icon-aspas"></i> Título </h6>
+				    <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. <i class="fas fa-quote-right icon-aspas"></i></p>
+				  </div><!-- card -->
+				</div><!-- card-body -->
+
+				<div class="card mb-2 tag-box-shadow">
+				  <div class="card-body">
+				    <img src="img/usuario.png" class="rounded-circle mr-4 ml-2 float-left img-usuario">
+				    <h6 class="my-2">Júlia Silva - 3 dias atrás</h6>
+				    <h6><i class="fas fa-quote-left icon-aspas"></i> Título </h6>
+				    <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <i class="fas fa-quote-right icon-aspas"></i></p>
+				  </div><!-- card -->
+				</div><!-- card-body -->
+
+				<div class="card mb-2 tag-box-shadow">
+				  <div class="card-body">
+				    <img src="img/usuario.png" class="rounded-circle mr-4 ml-2 float-left img-usuario">
+				    <h6 class="my-2">Marcela Fernanda - 5 dias atrás</h6>
+				    <h6><i class="fas fa-quote-left icon-aspas"></i> Título </h6>
+				    <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempo. <i class="fas fa-quote-right icon-aspas"></i></p>
+				  </div><!-- card -->
+				</div><!-- card-body -->
+
+
+			  </div><!-- col-12 -->
+			</div><!-- row -->
+		</div><!-- col-6 -->
+
+
+	</div><!-- row -->
+</div><!-- container -->
+<br><br><br><br>
+<footer class="footer navbar-fixed-bottom gold py-3 d-flex justify-content-around" >
+	<p>© 2018</p>
+	<p>Contato:  <a href="mailto:carol.ndj3@gmail.com?subject=Hello%20again" id="rodapé-link" title="carol.ndj3@gmail.com"> Email</a></p>
+	<p>Desenvolvido por Ana Caroline Lisboa Silva</p>
+</footer>
+</body>
+</html>
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+$('#btn-acessorios').mouseenter(function(){ /* passar o mouse pelo p*/
+  $('#filtro-acessorios').css("background","rgba(255,255,255, 0.3)");  /* executa uma ação assim que o mouse passa por cima. vamos usar o mouseout, pra voltar ao normal assim que sair do campo*/ 
+  }).mouseout(function(){  
+  $('#filtro-acessorios').css("background","rgba(255,255,255, 0.0)");       
+}); 
+
+
+$('#btn-sapatos').mouseenter(function(){ /* passar o mouse pelo p*/
+  $('#filtro-sapatos').css("background","rgba(255,255,255, 0.3)");  /* executa uma ação assim que o mouse passa por cima. vamos usar o mouseout, pra voltar ao normal assim que sair do campo*/ 
+  }).mouseout(function(){  
+  $('#filtro-sapatos').css("background","rgba(255,255,255, 0.0)");       
+}); 
+
+
+$('#btn-vestidos').mouseenter(function(){ /* passar o mouse pelo p*/
+  $('#filtro-vestidos').css("background","rgba(255,255,255, 0.3)");  /* executa uma ação assim que o mouse passa por cima. vamos usar o mouseout, pra voltar ao normal assim que sair do campo*/ 
+  }).mouseout(function(){  
+  $('#filtro-vestidos').css("background","rgba(255,255,255, 0.0)");       
+}); 
+</script>
